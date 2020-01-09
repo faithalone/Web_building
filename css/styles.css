@@ -1,0 +1,159 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h2,h3{
+  font-family: "Montserrat-Bold";
+}
+p{
+  color: #f0134d;
+}
+
+/* title */
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.big-heading{
+font-family: 'Anton', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+margin-bottom: 50px;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;}
+.container-fluid{
+  padding: 7% 15%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.download-button{
+  margin-bottom: 30px;
+}
+/* Section id */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.white-section{
+  background-color:#fff;
+}
+
+/* Title Image */
+.title-image{
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 70%;
+
+}
+
+@media (max-width: 1020px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    margin: 15% 0 15%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Section id="features" */
+
+#features{
+padding: 7% 15%;
+position: relative;
+}
+.icons-images1{
+color: #ef8172;
+margin-bottom: 6%;
+}
+.icon-hover:hover{
+  color: #ff4c68;
+}
+.center{
+ padding: 5%;
+
+  }
+.feature-head{
+  font-family: 'Oswald', sans-serif;
+  }
+.paragraph-word
+{
+  font-weight: lighter;
+}
+
+/* Testimonials Section */
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* Press section */
+#press{
+  padding-bottom:3%;
+}
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+/* Pricing section */
+#pricing{
+  padding: 3%;
+
+}
+.pricing-column{
+padding: 3% 2%;
+}
+.pricing-text, .testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-item{
+font-size: 1.5rem;
+}
+
+/* CTA section */
+.cta-button{
+  margin: 10px 20px 10px;
+}
+
+/* footer sections */
+.footer-icons{
+  color: #ef8172;
+  margin: 20px 10px;
+  padding-top: 5%;
+}
+.footer-hover:hover{
+  color: #ff4c68;
+}
